@@ -80,7 +80,7 @@ body {
     position: absolute;
     width: 130px;
     border-radius: 10px;
-    background: url(/ada.PNG);
+    background: url(/familyTree/ada.PNG);
     filter: blur(3px);
 }
 .tag{
