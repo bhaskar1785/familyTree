@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(5, 4, 61);
+}
+
+.pic {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 15px;
+    background-color: brown;
+    transition: .25s;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.main .name {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 190px;
+    transition: .25s;
+    position: relative;
+
+}
+
+
+.main .name .pic:hover {
+    height: 105px;
+    width: 105px;
+}
+
+.main .name p {
+    margin: 10px;
+    color:Black;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .viewbutton {
+    width: 80px;
+    height: 30px;
+    margin: 10px 0px 0px 23px;
+    border: 2px solid white;
+    background: rgb(3, 3, 66);
+    border-radius: 10px;
+    transition: .25s;
+}
+
+.main .viewbutton a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.main .viewbutton:hover {
+    background-color: rgb(8, 8, 105);
+    box-shadow: 0px 0px 10px 2px;
+}
+
+.ash {
+    border: 2px solid black;
+    height: 185px;
+    position: absolute;
+    width: 130px;
+    border-radius: 10px;
+    background: url(/ada.PNG);
+    filter: blur(3px);
+}
+.tag{
+    margin: 10px;
+}
+.backbutton{
+    background-color: rgb(5, 5, 148);
+    height: 30px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.backbutton a {
+    text-decoration: none;
+    font-weight: 700;
+}
